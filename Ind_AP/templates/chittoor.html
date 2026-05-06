@@ -6,8 +6,8 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Wlcome {{name}}</h1>
-    <p>Age : {{age}}</p>
+    <h1>Wlcome {{name|upper}}</h1>
+    <p>Age : {{age|add:5}}</p>
 
     {% if age > 18 %}
     <h2>You are eligible to vote</h2>
