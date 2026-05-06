@@ -9,9 +9,9 @@
     <h1>Hello this is Hyderabad</h1>
     <h3>You can visit many places in Hyderabad</h3>
     <ol>
-      <li>Golkonda</li>
-      <li>Birla Mandir</li>
-      <li>Charminar</li>
+        {% for place  in places  %}
+                <li>{{place}}</li>
+        {% endfor %}
     </ol>
   </body>
 </html>
